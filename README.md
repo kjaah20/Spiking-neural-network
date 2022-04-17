@@ -12,3 +12,6 @@ Abu-Hassan, K., Coyle, D., Maguire, L. (2012) Investigating the neural correlate
 To run the model, type _HodgkinHuxley4_ in the command window. Note that _HodgkinHuxley4.m_ and _wiener.m_ should be at the same directory. 
 
 The code outputs the raster plot and the power spectra of the network oscillatory activity. More information can be found in the above paper.
+
+
+![untitled](https://user-images.githubusercontent.com/34474205/163700204-ff550295-4cb4-4893-80e9-d11358af3e9e.jpg)
