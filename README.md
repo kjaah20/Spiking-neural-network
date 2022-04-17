@@ -13,5 +13,4 @@ To run the model, type _HodgkinHuxley4_ in the command window. Note that _Hodgki
 
 The code outputs the raster plot and the power spectra of the network oscillatory activity. More information can be found in the above paper.
 
-
-![untitled](https://user-images.githubusercontent.com/34474205/163700204-ff550295-4cb4-4893-80e9-d11358af3e9e.jpg)
+![untitled](https://user-images.githubusercontent.com/34474205/163700245-d84fa665-b5fc-4e41-b670-30ad3d8ea8c5.jpg)
