@@ -3,7 +3,6 @@ function HodgkinHuxley4
 count=1;
 for Ne=160% excitatory neurons
     Ni=40;% inhib neurons
-for j2=1:1
 %% INITIALIZATION
 DT = 0.025;     % time step (ms)
 TMAX = 4000;      % simulation time (ms)
@@ -143,8 +142,6 @@ Y = fft(times1,NFFT)/L;
 YY=2*abs(Y(1:NFFT/2+1));
 
 end;
-tmp=1
-end;
 figure(1)
 plot(firings1(:,1),firings1(:,2),'.')
 % 'test'
@@ -189,6 +186,4 @@ rate = (1./(1+exp(-(v+35.0)/10.0)));
 
 function rate = w_tau(v)
 rate = (400./(3.3*(exp((v+35.0)/20.0))+exp(-(v+35.0)/20.0)));
-
-
 
